@@ -22,7 +22,7 @@
 git clone https://github.com/9corner/9corner-blog-skill.git ~/.claude/skills/9corner-blog
 ```
 
-WorkBuddy 用户放到 `~/.workbuddy/skills/9corner-blog/`。
+或者直接放到 `~/.workbuddy/skills/9corner-blog/`。
 
 没有 git 就直接复制整个目录过去，效果一样。
 
@@ -85,7 +85,7 @@ Cursor、GitHub Copilot、网页版 AI 这些没有技能机制，把 `SKILL.md`
 
 ## 适用范围
 
-**直接能用**：Firefly 主题 + 支持 skills 的 agent（Claude Code、WorkBuddy）。
+**直接能用**：Firefly 主题 + 支持 skills 的 agent。
 
 **能借鉴**：任何想给自己的博客定写作规范的人——尤其是「分类锁死 + 标签预算」这套机制，跟主题无关。
 
