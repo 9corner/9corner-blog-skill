@@ -42,8 +42,11 @@ Cursor、GitHub Copilot、网页版 AI 这些没有技能机制，把 `SKILL.md`
 | `references/format.md` | 查字段、分类、语法细节 | 1996 |
 | `references/cover.md` | 做封面时 | 619 |
 | `references/images.md` | 配截图时 | 605 |
+| `references/prompt-full.md` | **平时不读**，只在怀疑拆分后丢了东西时对照 | 5416 |
 
 拆开的理由就是省上下文：写一篇普通文章只加载 1093 tokens，需要查细则才加 1996。做封面时不会顺带把语法清单也读进来——这是一次性贴长文做不到的。
+
+`prompt-full.md` 是拆开之前的原始全文，留作对照，也方便不装 skill 的人整段复制。它没有被 `SKILL.md` 引用，不会被自动加载。
 
 内容上，`SKILL.md` 只放「每次都要」的：硬约束、优先级、怎么写。细则全在 references。
 
