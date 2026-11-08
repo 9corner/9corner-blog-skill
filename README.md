@@ -47,6 +47,21 @@ Cursor、GitHub Copilot、网页版 AI 这些没有技能机制，把 `SKILL.md`
 
 内容上，`SKILL.md` 只放「每次都要」的：硬约束、优先级、怎么写。细则全在 references。
 
+## 配套的两个技能
+
+这套规范管「写什么、怎么写」，管不了「写得对不对」。格式过了之后还得审一遍，那两个技能不是这份包里的东西，得自己装：
+
+| 技能 | 管什么 | 出处 |
+|---|---|---|
+| `technical-writer` | 论据、结构、可溯源 | [riekelt/technical-writer](https://github.com/riekelt/technical-writer) |
+| `humanizer-zh` | 空泛铺垫、重复、模板化节奏 | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |
+
+**顺序不能反：先查论据，再查句子。** 反过来会把「说了没依据的话」当成「措辞不好」来改——这是我自己踩过的坑，改完读起来顺了，但那句话仍然是没根据的。
+
+两个都只管形式。命令能不能跑、版本对不对、结论成不成立，还是得自己核。
+
+`technical-writer` 是英文的十件套（设计文档、ADR、changelog、runbook……），跟博客有关的只有 `technical-writing` 和 `reviewing-technical-prose` 两个，只用这两个就够。直接读英文，不必等翻译——规则全是短祈使句，机翻反而把 `severity`、`house style` 这类有确定含义的说法译糊。
+
 ## 换成你自己的
 
 这份规范里的分类、标签表、front matter 字段都是 9Corner 这个站的，直接抄会水土不服。三处改动让它变成你的：
