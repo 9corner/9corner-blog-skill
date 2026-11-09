@@ -59,7 +59,7 @@ metadata:
 - 封面 → `references/cover.md`
 - 正文截图与图床 → `references/images.md`
 
-只在真正做那一步时才读，不要一次全加载。
+只在真正做那一步时才读，不要一次全加载。这几份都在本地磁盘上，直接读就行，不要联网去 GitHub 拉。
 
 ## 交付
 
